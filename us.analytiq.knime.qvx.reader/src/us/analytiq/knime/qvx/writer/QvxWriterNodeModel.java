@@ -76,7 +76,7 @@ public class QvxWriterNodeModel extends NodeModel {
     	if (mSettings.getFileName().equals("")) {
             throw new InvalidSettingsException("No settings available");
         }
-        return new DataTableSpec[]{null};
+        return null;
     }
 
     @Override
